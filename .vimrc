@@ -18,7 +18,9 @@ highlight ColorColumn ctermbg=0 guibg=lightgrey
 call plug#begin('~/.vim/plugged')
 
 Plug 'morhetz/gruvbox'
+Plug 'preservim/nerdtree'
 
 call plug#end()
 colorscheme gruvbox
 set background=dark
+autocmd vimenter * NERDTree
